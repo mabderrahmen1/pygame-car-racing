@@ -23,21 +23,21 @@ obsCooldawn=150
 
 
 #load game assets
-blueCar=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\blueCar.png"))
-greenCar=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\gCar.png"))
+blueCar=pygame.image.load(os.path.join("assets\\blueCar.png"))
+greenCar=pygame.image.load(os.path.join("assets\\gCar.png"))
 greenCar=pygame.transform.scale(greenCar,(100,50))
 greenCar=pygame.transform.rotate(greenCar,90)#scale background
-yellowCar=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\\yellowCar.png"))
+yellowCar=pygame.image.load(os.path.join("assets\\yellowCar.png"))
 yellowCar=pygame.transform.scale(yellowCar,(80,50))
 yellowCar=pygame.transform.rotate(yellowCar,-90)#scale background
-racingRoad=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\racingRoad.png"))
+racingRoad=pygame.image.load(os.path.join("assets\\racingRoad.png"))
 racingRoad=pygame.transform.scale(racingRoad,(400,600))
-woodBackground=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\woodback.png"))#import background
+woodBackground=pygame.image.load(os.path.join("assets\\woodback.png"))#import background
 woodBackground=pygame.transform.scale(woodBackground,(200,700))#scale background
-blackCar=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\blackCar.png"))
-barrel=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\barrel.png"))
-roadStop=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\roadStop.png"))
-scorePannel=pygame.image.load(os.path.join("C:\\Users\\E6420\\Desktop\\vsCode\\pygame\\assets\\scorePannel.png"))#import background
+blackCar=pygame.image.load(os.path.join("assets\\blackCar.png"))
+barrel=pygame.image.load(os.path.join("assets\\barrel.png"))
+roadStop=pygame.image.load(os.path.join("assets\\roadStop.png"))
+scorePannel=pygame.image.load(os.path.join("assets\\scorePannel.png"))#import background
 scorePannel=pygame.transform.scale(scorePannel,(150,150))
 
 
